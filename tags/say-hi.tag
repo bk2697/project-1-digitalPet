@@ -37,13 +37,13 @@
  sayHello() {
   this.message = 'You: Hello'
   this.petImage = "pet-1"
-  this.petHealth=this.petHealth + 1
+  this.petHealth=this.petHealth + 2
   this.percentHealth = this.petHealth;
 }
 touchDog() {
   this.message = 'You: Why are you so cute?'
   this.petImage = "pet-2"
-  this.petHealth=this.petHealth + 1
+  this.petHealth=this.petHealth + 2
   this.percentHealth = this.petHealth;
 }
 
@@ -121,7 +121,7 @@ updateFoodState(event){
   }
   .message{
     font-size: 1em;
-    color: red;
+    color: blue;
 
   }
  </style>
